@@ -1,20 +1,20 @@
 {
 	"name": "spark-server",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"license": "AGPL-3.0",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/spark/spark-server"
+		"url": "https://github.com/jr3cermak/spark-server"
 	},
-	"homepage": "https://github.com/spark/spark-server",
-	"bugs": "https://github.com/spark/spark-server/issues",
+	"homepage": "https://github.com/jr3cermak/spark-server",
+	"bugs": "https://github.com/jr3cermak/spark-server/issues",
 	"author": {
 		"name": "David Middlecamp",
 		"email": "david@spark.io",
 		"url": "https://www.spark.io/"
 	},
 	"dependencies": {
-		"spark-protocol": "*",
+		"spark-protocol": "git+https://github.com/jr3cermak/spark-protocol.git#v0.1.7",
 		"express": "~3.4.4",
 		"hogan-express": "~0.5.1",
 		"request": "*",
@@ -38,6 +38,11 @@
 			"name": "Emily Rose",
 			"email": "emily@spark.io",
 			"url": "https://github.com/emilyrose"
+		},
+		{
+			"name": "Rob Cermak",
+			"email": "rob.cermak@gmail.com",
+			"url": "https://github.com/jr3cermak"
 		}
 	]
 }
